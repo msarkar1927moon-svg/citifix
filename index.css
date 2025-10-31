@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'leaflet/dist/leaflet.css';
+
+body {
+  @apply bg-gradient-to-br from-orange-50 via-white to-green-50 text-gray-900;
+  font-family: 'Inter', 'DM Sans', sans-serif;
+}
+
+.tricolor-gradient {
+  background: linear-gradient(135deg, #FF9933 0%, #FFFFFF 50%, #138808 100%);
+}
+
+.saffron-accent {
+  @apply bg-orange-500 hover:bg-orange-600;
+}
+
+.green-accent {
+  @apply bg-green-600 hover:bg-green-700;
+}
+
+.blue-accent {
+  @apply bg-blue-600 hover:bg-blue-700;
+}
